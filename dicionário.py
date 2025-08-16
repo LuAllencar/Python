@@ -10,7 +10,7 @@ while True or range(5):
     listaProdutos.append(produto)
 
     # Exibindo os dados do produto
-    # Quantidade de produtos cadastrados
+    # Quantidade de produtos cadastrados!!!
     itens += 1
     print(f"\nQuantidade de produtos cadastrados: {itens}")
     print(f"ID: {produto['Id']}, Nome: {produto['Nome']}, Preço: {produto['Preço']}")
