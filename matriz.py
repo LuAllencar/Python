@@ -18,10 +18,5 @@ for i in range(len(matriz)):
         print(f"Elemento na posição: ({i}, {j}): {matriz[i][j]}")
 
 # maior valor da matriz!!!
-maior = max(max(linha) for linha in matriz)
-print(f"\nO maior valor da matriz é: {maior}")
-
-# menor valor da matriz!!!
-menor = min(min(linha) for linha in matriz)
-print(f"O menor valor da matriz é: {menor}")
-
+maior = max(matriz)
+print("O maior valor da matriz é:",maior)

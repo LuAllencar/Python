@@ -1,0 +1,5 @@
+nome = input("Digite o seu nome: ")
+print("Olá, ", nome, "seja bem vindo(a)")
+a = int(input("Digite o primeiro número aqui: "))
+b = int(input("Digite o Segundo número aqui: "))
+print("A soma dos valores digitados anteriormente é igual a: ", a+b )
